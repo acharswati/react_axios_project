@@ -10,6 +10,7 @@ function FeatchData(){
     },[])
     return(
         <div className="container">
+            
             <div className="mt-3">
                 <h3>Featch Data from API in react with Axios posts Table</h3>
                 <table className="table">
