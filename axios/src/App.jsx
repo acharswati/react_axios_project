@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import FeatchData from './FeatchData'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   //const [count, setCount] = useState(0)
