@@ -5,7 +5,6 @@ import axios from 'axios';
 
 function FeatchData() {
     const [data, setData] = useState([]);
-
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/posts')
             .then(res => setData(res.data))
