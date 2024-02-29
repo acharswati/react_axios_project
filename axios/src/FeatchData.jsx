@@ -10,7 +10,6 @@ function FeatchData() {
             .then(res => setData(res.data))
             .catch(err => console.log(err));
     }, []);
-
     return (
         <div className="data-container">
             <div className="mt-2">
