@@ -27,7 +27,8 @@ function FeatchData() {
                     </thead>
                     <tbody>
                         {data.map((post, index) => (
-                            <tr key={index}>
+                           <tr key={index} className={index % 2 === 0 ? "table-row-even" : "table-row-odd"}>
+                 
                                 <td>{post.userId}</td>
                                 <td>{post.id}</td>
                                 <td>{post.title}</td>
