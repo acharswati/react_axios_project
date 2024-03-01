@@ -16,7 +16,7 @@ function FeatchData() {
         <div className="data-container">
             <div className="mt-2">
                 <h3> Axios Posts Table</h3>
-                <Table striped bordered hover size="big">
+                <Table striped bordered hover size="sm">
                     <thead>
                         <tr class="table-danger">
                             <th>User ID</th>
